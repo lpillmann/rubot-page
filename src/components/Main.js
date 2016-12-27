@@ -47,7 +47,7 @@ class Dish extends React.Component {
     return (
       <div className="dish">
         <img src={dishImage} alt="Today's dish" />
-        <h2>(Dish name)</h2> 
+        <h2>(Dish name)</h2>
         <p>(Dish description)</p>
       </div>
       );
@@ -71,15 +71,15 @@ class Footer extends React.Component {
       <div className="footer">
         <p>Oferecimento: <a href="http://hackinggigs.com/">Hacking Gigs</a></p>
         <ul className="icons">
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
+          <li><a href="https://github.com/hackinggigs"></a><span className="fa fa-github"></span></li>
+          <li><a href=""></a><span className="fa fa-facebook-square"></span></li>
+          <li><a href=""></a><span className="fa fa-rss"></span></li>
         </ul>
+        
       </div>
       );
   }
 }
-
-
 
 // Main component
 class AppComponent extends React.Component {

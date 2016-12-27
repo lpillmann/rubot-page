@@ -1,5 +1,3 @@
-@import url("font-awesome.min.css");
-
 /* Base Application Styles */
 body {
   color: #222;
@@ -69,13 +67,38 @@ body {
     display: block;
     }
 
+.call-to-action {
+  text-align: center;  
+}
 
+.footer {
+  color: #fff;
+  background-color: #FF5252;
+  text-align: center;
+  width: 100%;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  margin-left: auto ;
+  margin-right: auto ;
+}
 
-ul.icons {
-      cursor: default;
-      list-style: none;
-      padding-left: 0;
-    }
+  .footer ul {
+    list-style-type: none; /*to remove bullets*/
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    /*border:1px solid red;*/
+    display:table;
+    overflow: hidden;
+  }
+
+  .footer li {
+    float: left;
+    padding: 2px;
+    width: 150px;
+    margin-left: auto ;
+    margin-right: auto ;
+  }
 
 
 
