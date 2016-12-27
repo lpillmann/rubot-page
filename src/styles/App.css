@@ -1,0 +1,94 @@
+@import url("font-awesome.min.css");
+
+/* Base Application Styles */
+body {
+  color: #222;
+  background: #ddd;
+}
+
+.header img {
+  width: 6em;
+  margin: 40px auto;
+  border-radius: 50px;
+  background: #fff;
+  display: block;
+}
+
+.header {
+  color: #fff;
+  background-color: #FF5252;
+  padding-top: 10px;
+}
+
+    .header h1, h3 {
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 0px;
+    }
+
+.navbar {
+    width: 100%;
+    padding-bottom: 5px;
+    margin-left: auto ;
+    margin-right: auto ;
+    background-color: #FF5252;
+}
+
+    .navbar ul {
+      list-style-type: none; /*to remove bullets*/
+      text-align: center;
+      margin: 0 auto;
+      padding: 0px;
+      /*border:1px solid red;*/
+      display:table;
+      overflow: hidden;
+    }
+
+    .navbar li{
+      float: left;
+      padding: 2px;
+      width: 150px;
+      margin-left: auto ;
+      margin-right: auto ;
+    }
+
+.date {
+  text-align: center;
+}
+
+.dish {
+  display: block;
+  text-align: center;
+}
+
+    .dish img {
+    width: 20em;
+    margin: 40px auto;
+    border-radius: 2px;
+    background: #fff;
+    display: block;
+    }
+
+
+
+ul.icons {
+      cursor: default;
+      list-style: none;
+      padding-left: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
