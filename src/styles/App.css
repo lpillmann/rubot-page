@@ -1,15 +1,8 @@
 /* Base Application Styles */
 body {
+  font-family: 'Roboto', sans-serif;
   color: #222;
   background: #ddd;
-}
-
-.header img {
-  width: 6em;
-  margin: 40px auto;
-  border-radius: 50px;
-  background: #fff;
-  display: block;
 }
 
 .header {
@@ -18,10 +11,33 @@ body {
   padding-top: 10px;
 }
 
+    .header h1 {
+      font-size: 1.5em;
+      font-weight: 300;
+      padding-bottom: 0.5em;
+      margin-bottom: 0px;
+    }
+
+    .header h3 {
+      font-size: 2em;
+      padding-bottom: 0.5em;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+
     .header h1, h3 {
     text-align: center;
+    font-weight: 300;
     padding: 2px;
     margin-bottom: 0px;
+    }
+
+    .header img {
+      width: 6em;
+      margin: 15px auto;
+      border-radius: 50px;
+      background: #fff;
+      display: block;
     }
 
 .navbar {
@@ -52,6 +68,7 @@ body {
 
 .date {
   text-align: center;
+  padding-top: 1em;
 }
 
 .dish {
@@ -68,7 +85,8 @@ body {
     }
 
 .call-to-action {
-  text-align: center;  
+  text-align: center;
+  margin: 2em;
 }
 
 .footer {
@@ -78,8 +96,9 @@ body {
   width: 100%;
   padding-top: 3px;
   padding-bottom: 5px;
-  margin-left: auto ;
-  margin-right: auto ;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
 }
 
   .footer ul {
@@ -95,14 +114,20 @@ body {
   .footer li {
     float: left;
     padding: 2px;
-    width: 150px;
+    width: 1.8em;
     margin-left: auto ;
     margin-right: auto ;
   }
 
+.icons {
+  font-size: 1.8em;
+}
 
 
-
+/* Overwriting Materialize defaults */
+.card .card-image .card-title {
+  color: #222;
+}
 
 
 
