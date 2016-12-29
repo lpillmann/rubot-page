@@ -1,0 +1,45 @@
+.header-component {
+  color: #fff;
+  background-color: #FB0035;
+  padding-top: 10px;
+}
+
+    .header-component h1 {
+      color: #FEE5EA;
+      font-size: 1.5em;
+      font-weight: 100;
+      padding-bottom: 0.5em;
+      margin-bottom: 0px;
+      margin-top: 5px;
+    }
+
+    .header-component h2 {
+      color: #FEE5EA;
+      font-size: 1em;
+      font-weight: 100;
+      padding-bottom: 0.5em;
+      margin-bottom: 0px;
+      margin-top: 2px;
+    }
+
+    .header-component h3 {
+      font-size: 2.5em;
+      padding-bottom: 0.5em;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+
+	    .header-component h1, h2, h3 {
+	    text-align: center;
+	    padding: 2px;
+	    margin-bottom: 0px;
+	    }
+
+    .header-component img {
+      width: 6em;
+      margin: 15px auto;
+      margin-bottom: 3px;
+      border-radius: 50px;
+      background: #fff;
+      display: block;
+    }

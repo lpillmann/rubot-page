@@ -1,0 +1,4 @@
+/* Overwriting Materialize defaults */
+.card .card-image .card-title {
+  color: #222;
+}

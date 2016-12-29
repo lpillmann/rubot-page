@@ -1,0 +1,35 @@
+.navigationmenu-component {
+    font-size: 1.2em;
+    font-weight: 300;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-left: auto ;
+    margin-right: auto ;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    background-color: #FB0035;
+    box-shadow: 0 2px 0px 0 rgba(0,0,0,0.16), 0 4px 0px 0 rgba(0,0,0,0.12);
+}
+
+    .navigationmenu-component ul {
+      list-style-type: none; /*to remove bullets*/
+      text-align: center;
+      margin: 0 auto;
+      padding: 0px;
+      /*border:1px solid red;*/
+      display: table;
+      overflow: hidden;
+    }
+
+    .navigationmenu-component li{
+      float: left;
+      padding: 2px;
+      width: 8em;
+      margin-left: auto ;
+      margin-right: auto ;
+    }
+
+    .navigationmenu-component a {
+      color: #fff;
+      text-decoration: none;
+    }

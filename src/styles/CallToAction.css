@@ -1,0 +1,22 @@
+.calltoaction-component {
+  text-align: center;
+  margin: 1em;
+}
+
+  .calltoaction-component p {
+    color: #FF5252;
+    font-size: 1.3em;
+    margin: 10px 0 10px 0;
+  }
+
+  .calltoaction-component .btn {
+    background-color: #0084ff;
+    margin-bottom: 20px;
+  }
+
+  .calltoaction-component img {
+    width: 1.5em;
+    vertical-align: middle;
+    margin-right: 1em;
+    padding-bottom: 3px;
+  }
