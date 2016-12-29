@@ -7,8 +7,7 @@ import {Card, CardTitle, Row, Col, Button, Icon} from 'react-materialize';
 
 let pigeonImage = require('../images/pigeon.png');
 let dishImage = require('../images/dish.jpg');
-
-//let dish = {'name' : 'Almôndegas', 'description' : 'Bolinhas de carne com ou sem molho dependendo da nossa sorte'};
+let messengerImage = require('../images/facebook-messenger-transparent.png');
 
 // RUbot components
 class Header extends React.Component {
@@ -17,6 +16,7 @@ class Header extends React.Component {
       <div className="header">
         <img src={pigeonImage} alt="RUbot pigeon" />
         <h1>RUbot</h1>
+        <h2>O chatbot mais querido da UFSC</h2>
         <h3>O que tem no RU hoje?</h3>
       </div>
       );
@@ -28,8 +28,8 @@ class NavigationMenu extends React.Component {
     return (
       <div className="navbar">
         <ul>
-          <li><a href="#">Cardápio do dia</a></li>
-          <li><a href="#">Sobre</a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
         </ul>
       </div>
       );
@@ -69,7 +69,7 @@ class DishCard extends React.Component {
       <div className="dish-card">
         <Row>
           <Col offset="m4" m={4} s={12}>
-              <Card header={<CardTitle reveal image={"images/dish.jpg"} waves='light'/>}
+              <Card header={<CardTitle reveal image={dishImage} waves='light'/>}
                   title={dishName}
                   reveal={<p>Here is some more information about this product that is only revealed once clicked on.</p>}>
                   <p>{dishDescription}</p>
@@ -85,8 +85,8 @@ class CallToAction extends React.Component {
   render() {
     return (
       <div className="call-to-action">
-        <p>Receba o menu completo no celular</p>
-        <a href="#"><button type="button">Chatbot no messenger</button></a>
+        <p>Receba o menu completo no celular:</p>
+        <a className="waves-effect waves-light btn"><img src={messengerImage} alt="" />RUbot no Messenger</a>
       </div>
       );
   }
@@ -100,7 +100,7 @@ class Footer extends React.Component {
         <ul className="icons">
           <li><a href="https://github.com/hackinggigs"><span className="fa fa-github"></span></a></li>
           <li><a href=""></a><span className="fa fa-facebook-square"></span></li>
-          <li><a href=""></a><span className="fa fa-rss"></span></li>
+          <li><a href="http://hackinggigs.com/"></a><span className="fa fa-rss"></span></li>
         </ul>
         
       </div>
@@ -115,8 +115,8 @@ class AppComponent extends React.Component {
       <div className="index">
         <Header />
         <NavigationMenu />
-        <TodayDate date="Terça-feira (27/12/2016)"/>
-        <DishCard name='Almôndegas' description='Bolinhas de carne com ou sem molho dependendo da nossa sorte' />
+        <TodayDate date="Quarta-feira (28/12/2016)"/>
+        <DishCard name='Almôndegas' description='Bolinhas de carne com ou sem molho dependendo da nossa sorte.' />
         <CallToAction />
         <Footer />
       </div>

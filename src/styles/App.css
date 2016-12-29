@@ -2,32 +2,47 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #ddd;
+  background: #eee;
+}
+
+a {
+  color: #FEE5EA;
+  text-decoration: underline;
 }
 
 .header {
   color: #fff;
-  background-color: #FF5252;
+  background-color: #FB0035;
   padding-top: 10px;
 }
 
     .header h1 {
+      color: #FEE5EA;
       font-size: 1.5em;
-      font-weight: 300;
+      font-weight: 100;
       padding-bottom: 0.5em;
       margin-bottom: 0px;
+      margin-top: 5px;
+    }
+
+    .header h2 {
+      color: #FEE5EA;
+      font-size: 1em;
+      font-weight: 100;
+      padding-bottom: 0.5em;
+      margin-bottom: 0px;
+      margin-top: 2px;
     }
 
     .header h3 {
-      font-size: 2em;
+      font-size: 2.5em;
       padding-bottom: 0.5em;
       margin-top: 10px;
       margin-bottom: 0px;
     }
 
-    .header h1, h3 {
+    .header h1, h2, h3 {
     text-align: center;
-    font-weight: 300;
     padding: 2px;
     margin-bottom: 0px;
     }
@@ -35,17 +50,23 @@ body {
     .header img {
       width: 6em;
       margin: 15px auto;
+      margin-bottom: 3px;
       border-radius: 50px;
       background: #fff;
       display: block;
     }
 
 .navbar {
+    font-size: 1.2em;
+    font-weight: 300;
     width: 100%;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     margin-left: auto ;
     margin-right: auto ;
-    background-color: #FF5252;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    background-color: #FB0035;
+    box-shadow: 0 2px 0px 0 rgba(0,0,0,0.16), 0 4px 0px 0 rgba(0,0,0,0.12);
 }
 
     .navbar ul {
@@ -54,21 +75,26 @@ body {
       margin: 0 auto;
       padding: 0px;
       /*border:1px solid red;*/
-      display:table;
+      display: table;
       overflow: hidden;
     }
 
     .navbar li{
       float: left;
       padding: 2px;
-      width: 150px;
+      width: 8em;
       margin-left: auto ;
       margin-right: auto ;
     }
 
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+    }
+
 .date {
   text-align: center;
-  padding-top: 1em;
+  padding-top: 0.4em;
 }
 
 .dish {
@@ -84,14 +110,36 @@ body {
     display: block;
     }
 
+    .dish .row {
+      margin-bottom: 10px;
+    }
+
 .call-to-action {
   text-align: center;
-  margin: 2em;
+  margin: 1em;
 }
+
+  .call-to-action p {
+    color: #FF5252;
+    font-size: 1.3em;
+    margin: 10px 0 10px 0;
+  }
+
+  .call-to-action .btn {
+    background-color: #0084ff;
+    margin-bottom: 20px;
+  }
+
+  .call-to-action img {
+    width: 1.5em;
+    vertical-align: middle;
+    margin-right: 1em;
+    padding-bottom: 3px;
+  }
 
 .footer {
   color: #fff;
-  background-color: #FF5252;
+  background-color: #FB0035;
   text-align: center;
   width: 100%;
   padding-top: 3px;
@@ -117,6 +165,11 @@ body {
     width: 1.8em;
     margin-left: auto ;
     margin-right: auto ;
+    margin-top: 0px;
+  }
+
+  .footer p {
+    font-size: 0.7em;
   }
 
 .icons {
