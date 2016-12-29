@@ -7,19 +7,23 @@ require('styles//Dish.css');
 
 let dishImage = require('../images/dish.jpg');
 
-let DishComponent = (props) => (
-  <div className="dish-component">
-    <Row>
-      <Col offset="m4" m={4} s={12}>
-          <Card header={<CardTitle reveal image={dishImage} waves='light'/>}
-              title={props.name}
-              reveal={<p>Here is some more information about this product that is only revealed once clicked on.</p>}>
-              <p>{props.description}</p>
-          </Card>
-      </Col>
-    </Row>
-  </div>
-);
+class DishComponent extends React.Component {
+  render() {
+    return (
+      <div className="dish-component">
+        <Row>
+          <Col offset="m4" m={4} s={12}>
+              <Card header={<CardTitle reveal image={dishImage} waves='light'/>}
+                  title={this.props.name}
+                  reveal={<p>{this.props.reveal}</p>}>
+                  <p>{this.props.description}</p>
+              </Card>
+          </Col>
+        </Row>
+      </div>
+    );
+  }
+}
 
 DishComponent.displayName = 'DishComponent';
 

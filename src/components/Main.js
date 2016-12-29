@@ -17,8 +17,8 @@ class AppComponent extends React.Component {
       <div className="index">
         <HeaderComponent />
         <NavigationMenuComponent />
-        <TodaysDateComponent date="Quarta-feira (28/12/2016)"/>
-        <DishComponent name='Almôndegas' description='Bolinhas de carne com ou sem molho dependendo da nossa sorte.' />
+        <TodaysDateComponent />
+        <DishComponent name='Almôndegas' description='Bolinhas de carne com ou sem molho dependendo da nossa sorte.' reveal="Here is some more information about this product that is only revealed once clicked on."/>
         <CallToActionComponent />
         <FooterComponent />
       </div>
