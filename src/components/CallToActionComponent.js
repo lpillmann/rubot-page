@@ -9,7 +9,7 @@ let messengerImage = require('../images/facebook-messenger-transparent.png');
 let CallToActionComponent = (props) => (
   <div className="calltoaction-component">
     <p>Receba o menu completo no celular:</p>
-	<a className="waves-effect waves-light btn" href="https://google.com"><img src={messengerImage} alt="" />RUbot no Messenger</a>
+	<a className="waves-effect waves-light btn" href="#"><img src={messengerImage} alt="" />RUbot no Messenger</a>
   </div>
 );
 
