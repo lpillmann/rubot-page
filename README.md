@@ -13,7 +13,7 @@ $ npm run serve
 ## Credits
 This project is built using [react-webpack Yeoman generator](https://github.com/react-webpack-generators/generator-react-webpack).
 
-Obs.:
+**Obs.:**
 
 Due to some bugs ([issue 233](https://github.com/react-webpack-generators/generator-react-webpack/issues/233) and [issue 236](https://github.com/react-webpack-generators/generator-react-webpack/issues/236)) I've customized some configs:
 
